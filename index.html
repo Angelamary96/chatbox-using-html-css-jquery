@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chatbox</title>
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel='stylesheet' href="css/uicons-regular-rounded.css">
+   <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,400;0,500;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,700;1,800;1,900&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet"> 
+</head>
+<body>
+  <section class="zh-chatbox dflex">
+     <div class="zh-menu dflex">
+        <ul class="zh-menutop">
+              
+            <li>
+                <a href="#">
+                    <i class="fi fi-rr-gift"></i>
+                </a>
+            </li>
+            <li class="icon2">
+                <a href="#">
+                    <i class="fi fi-rr-smile"></i>
+                </a>
+            </li>
+            <li class="icon3">
+                <a href="#">
+                    <i class="fa fa-github-alt" aria-hidden="true"></i>
+                </a>
+            </li>
+            <li class="icon4">
+                <a href="#">
+                    <i class="fa fa-ils" aria-hidden="true"></i>
+                </a>
+            </li>
+            <li class="icon5">
+                <a href="#">
+                    <i class="fa fa-plus" aria-hidden="true"></i>
+                </a>
+            </li>
+          </ul>
+          <ul class="zh-menubottom">
+            <li>
+                <a href="#">
+                    <i class="fa fa-cog" aria-hidden="true"></i>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fa fa-user-o" aria-hidden="true"></i>
+                </a>
+            </li>
+          </ul>
+     </div>
+     <div class="zh-content dflex">
+       <div class="zh-users">
+            <div class="profile">
+                <figure>
+                    <span class="profile-img">
+                        <img src="images/pic8.jfif">
+                    </span>
+                   
+                </figure>
+                <h4>heather parker</h4>
+                <ul class="profile-social dflex">
+                    <li>
+                        <a href="#">
+                            <i class="fa fa-facebook-official" aria-hidden="true"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa fa-instagram" aria-hidden="true"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa fa-pinterest" aria-hidden="true"></i>
+                        </a>
+                    </li>
+                  </ul>
+            </div>
+            <div class="active-users">
+                <h5>active users</h5>
+                <ul class="user-active dflex">
+                    <li class="wow bounceIn" data-wow-duration="3s" data-wow-delay="2s">
+                        <a href="#" class="active-icon zh-pr">
+                            
+                            <img src="images/pic8.jfif">
+                        </a>
+                    </li>
+                    <li class="wow bounceIn" data-wow-duration="3s" data-wow-delay="2s">
+                        <a href="#" class="active-icon zh-pr">
+                            
+                            <img src="images/pic7.webp">
+                        </a>
+                    </li>
+                    <li class="wow bounceIn" data-wow-duration="3s" data-wow-delay="2s">
+                        <a href="#" class="active-icon zh-pr">
+                            
+                            <img src="images/images.jfif">
+                        </a>
+                    </li>
+                    <li class="wow bounceIn" data-wow-duration="3s" data-wow-delay="2s">
+                        <a href="#" class="active-icon zh-pr">
+                            
+                            <img src="images/img.jpeg">
+                        </a>
+                    </li>
+                    <li class="wow bounceIn" data-wow-duration="3s" data-wow-delay="2s">
+                        <a href="#" class="active-icon zh-pr">
+                            
+                            <img src="images/Girls.png">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="zh-chats">
+                <h5>chats</h5>
+                <form class="inputbox zh-pr">
+                    <input type="text" placeholder="Search">
+                    <i class="fa fa-search zh-pa" aria-hidden="true"></i>
+                </form>
+            </div>
+            <div class="cht-content">
+                <div class="wow bounceIn" data-wow-duration="3s" data-wow-delay="1s">
+                    <div class="zh-chat-msg dflex">
+                        <div class="zh-chatleft">
+                            <figure >
+                                <span class="chat-icon zh-pr">
+                                    <img src="images/Girls.png">
+                                </span>
+                                
+                            </figure>
+                        </div>
+                        <div class="zh-chatright">
+                            <h5>robert fox</h5>
+                            <p class="zh-ellipsis">Hi, I want to talk about the Hi, I want to talk </p>
+                        </div>
+                        <div class="zh-chat-time">
+                            <span>10.30PM</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="wow bounceIn" data-wow-duration="3s" data-wow-delay="1s">
+                    <div class="zh-chat-msg dflex">
+                        <div class="zh-chatleft">
+                            <figure >
+                                <span class="chat-icon chat-offline zh-pr">
+                                    <img src="images/Girls.png">
+                                </span>
+                                
+                            </figure>
+                        </div>
+                        <div class="zh-chatright">
+                            <h5>Darlene robertson</h5>
+                            <p class="zh-ellipsis">Hi, I want to talk about the Hi, I want to talk </p>
+                        </div>
+                        <div class="zh-chat-time">
+                            <span>10.30PM</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="wow bounceIn" data-wow-duration="3s" data-wow-delay="1s">
+                    <div class="zh-chat-msg dflex">
+                        <div class="zh-chatleft">
+                            <figure >
+                                <span class="chat-icon chat-offline zh-pr">
+                                    <img src="images/Girls.png">
+                                </span>
+                                
+                            </figure>
+                        </div>
+                        <div class="zh-chatright">
+                            <h5>Theresa Webb</h5>
+                            <p class="zh-ellipsis">Hi, I want to talk about the Hi, I want to talk </p>
+                        </div>
+                        <div class="zh-chat-time">
+                            <span>10.30PM</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="wow bounceIn" data-wow-duration="3s" data-wow-delay="1s">
+                    <div class="zh-chat-msg dflex">
+                        <div class="zh-chatleft">
+                            <figure >
+                                <span class="chat-icon chat-offline zh-pr">
+                                    <img src="images/Girls.png">
+                                </span>
+                                
+                            </figure>
+                        </div>
+                        <div class="zh-chatright">
+                            <h5>Kristin Watson</h5>
+                            <p class="zh-ellipsis">Hi, I want to talk about the Hi, I want to talk </p>
+                        </div>
+                        <div class="zh-chat-time">
+                            <span>10.30PM</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="wow bounceIn" data-wow-duration="3s" data-wow-delay="1s">
+                    <div class="zh-chat-msg dflex">
+                        <div class="zh-chatleft">
+                            <figure >
+                                <span class="chat-icon chat-offline zh-pr">
+                                    <img src="images/Girls.png">
+                                </span>
+                                
+                            </figure>
+                        </div>
+                        <div class="zh-chatright">
+                            <h5>Cody Fisher</h5>
+                            <p class="zh-ellipsis">Hi, I want to talk about the Hi, I want to talk </p>
+                        </div>
+                        <div class="zh-chat-time">
+                            <span>10.30PM</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="wow bounceIn" data-wow-duration="3s" data-wow-delay="1s">
+                    <div class="zh-chat-msg dflex">
+                        <div class="zh-chatleft">
+                            <figure >
+                                <span class="chat-icon chat-offline zh-pr">
+                                    <img src="images/Girls.png">
+                                </span>
+                                
+                            </figure>
+                        </div>
+                        <div class="zh-chatright">
+                            <h5>Jane Cooper</h5>
+                            <p class="zh-ellipsis">Hi, I want to talk about the Hi, I want to talk </p>
+                        </div>
+                        <div class="zh-chat-time">
+                            <span>10.30PM</span>
+                        </div>
+                    </div>
+                </div>
+               
+               
+               
+                
+            </div>
+            
+            
+            
+            
+           
+            
+       </div>  
+       <div class="zh-web">
+        <div class="web-head dflex">
+            <div class="web-left dflex">
+                <img src="images/Girls.png">
+                <h5 class="dflex">Theresa webb</h5>
+            </div>
+            <div class="web-right dflex">
+               
+                <i class="fi fi-rr-video-camera"></i>
+                <i class="fa fa-search" aria-hidden="true"></i>
+                <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
+            </div>
+        </div>
+        <div class="chat-box">
+            <div class="chat-cont dflex">
+                <div class="chat-pic">
+                    <img src="images/pic8.jfif">
+                    
+                </div>
+                <div class="chat-msg">
+                    <div class="chat-title dflex">
+                    <h5>Darlene robertson</h5>
+                    <span>10:30PM</span>
+                </div>
+                <div class="wow slideInDown" data-wow-duration="3s" data-wow-delay="1s">
+                    <div class="chat-box-inner">
+                        <p>
+                            Hi, Theresa Webb! Are you still travelling.
+    
+                        </p>
+                    </div>
+                </div>
+                <div class="wow slideInDown" data-wow-duration="3s" data-wow-delay="1s">
+                    <div class="chat-box-inner">
+                        <p>
+                            Hi, Theresa Webb! Are you still travelling.
+    
+                        </p>
+                    </div>
+                </div>
+                    
+                   
+                </div>
+            </div>
+
+
+            <div class="chat-cont chat-box-right dflex">
+                <div class="chat-pic">
+                    <img src="images/images.jpeg">
+                    
+                </div>
+                <div class="chat-msg">
+                    <div class="chat-title dflex">
+                    <h5>Theresa Watson</h5>
+                    <span>10:30PM</span>
+                </div>
+                <div class="wow slideInDown" data-wow-duration="3s" data-wow-delay="1s">
+                    <div class="chat-box-inner">
+                        <p>
+                            Hi, Theresa Webb! Are you still travelling.
+    
+                        </p>
+                    </div>
+                </div>
+                <div class="wow slideInDown" data-wow-duration="3s" data-wow-delay="1s">
+                    <div class="chat-box-inner">
+                        <p>
+                            Hi, Theresa Webb! Are you still travelling.
+    
+                        </p>
+                    </div>
+                </div>
+
+                    <div class="chat-image-block dflex">
+                        <div class="chat-bgs">
+                            <img src="images/Girls.png">
+                        </div>
+                        <div class="chat-bgs">
+                            <img src="images/girl.jpg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="chat-cont dflex">
+                <div class="chat-pic">
+                    <img src="images/pic8.jfif">
+                    
+                </div>
+                <div class="chat-msg">
+                    <div class="chat-title dflex">
+                    <h5>Darlene robertson</h5>
+                    <span>10:30PM</span>
+                </div>
+                    <div class="chat-box-inner">
+                        <p>
+                            Awesome
+    
+                        </p>
+                    </div>
+
+                    <div class="audio-player dflex">
+                        <span>
+                            <i class="fa fa-play" aria-hidden="true"></i>
+                        </span>
+
+                        <div class="ranger-bar">
+
+                        </div>
+
+                        <em class="circle">
+
+                        </em>
+
+                        <em class="range-time">
+                            1:27
+                        </em>
+                    </div>
+                </div>
+            </div>
+
+
+           
+        </div>
+
+        <div class="command-box">
+            <div class="command-input">
+                <input type="text" placeholder="Add a comment...">
+                <span class="icon-left">
+                    <i class="fa fa-microphone" aria-hidden="true"></i>
+                </span>
+                <div class="icon-right">
+                    <span>
+                        <i class="fa fa-smile-o" aria-hidden="true"></i>
+                    </span>
+
+                    <span>
+                        <i class="fa fa-tag" aria-hidden="true"></i>
+                    </span>
+
+                    <span>
+                        <i class="fa fa-map-marker" aria-hidden="true"></i> 
+                    </span>
+
+                    <span>
+                        <i class="fa fa-file-image-o" aria-hidden="true"></i>
+                    </span>
+                </div>
+                
+            </div>
+        </div>
+        
+       </div> 
+       <div class="zh-about">
+           <div class="about">
+               <h5>About</h5>
+               <p>Add details about people, like contact information</p>
+               <form>
+                 <button type="submit">Add details</button>
+
+               </form>
+           </div>
+           <div class="members">
+               <h5>Members <span>4</span></h5>
+               <div class="wow bounceIn" data-wow-duration="3s" data-wow-delay="1s">
+                <div class="members-list dflex">
+                    <div class="membersleft">
+                        <img src="images/Girls.png">
+                    </div>
+                    <div class="membersright">
+                        <h4>Darlene robertson</h4>
+                    </div>
+                    <div class="members-icon">
+                     <i class="fa fa-phone" aria-hidden="true"></i>
+                     <i class="fa fa-comment-o" aria-hidden="true"></i>
+                    </div>
+                </div>
+               </div>
+               <div class="wow bounceIn" data-wow-duration="3s" data-wow-delay="1s">
+                <div class="members-list dflex">
+                    <div class="membersleft">
+                        <img src="images/pic6.jpg">
+                    </div>
+                    <div class="membersright">
+                        <h4>Thresa web</h4>
+                    </div>
+                    <div class="members-icon">
+                     <i class="fa fa-phone" aria-hidden="true"></i>
+                     <i class="fa fa-comment-o" aria-hidden="true"></i>
+                    </div>
+                </div>
+               </div>
+              
+               <div class="wow bounceIn" data-wow-duration="3s" data-wow-delay="1s">
+                <div class="members-list dflex">
+                    <div class="membersleft">
+                        <img src="images/pic5.jpg">
+                    </div>
+                    <div class="membersright">
+                        <h4>Kristin Watson</h4>
+                    </div>
+                    <div class="members-icon">
+                     <i class="fa fa-phone" aria-hidden="true"></i>
+                     <i class="fa fa-comment-o" aria-hidden="true"></i>
+                    </div>
+                </div>
+               </div>
+               <div class="wow bounceIn" data-wow-duration="3s" data-wow-delay="1s">
+                <div class="members-list dflex">
+                    <div class="membersleft">
+                        <img src="images/pic8.jfif">
+                    </div>
+                    <div class="membersright">
+                        <h4>Cody Fisher</h4>
+                    </div>
+                    <div class="members-icon">
+                     <i class="fa fa-phone" aria-hidden="true"></i>
+                     <i class="fa fa-comment-o" aria-hidden="true"></i>
+                    </div>
+                </div>
+               </div>
+           </div>
+           <div class="media-blk">
+               <h5>Media<span>39 images</span></h5>
+               <div class="media-img dflex">
+                <img src="images/download.jfif">
+                <img src="images/images (2).jfif">
+                <img src="images/images (3).jfif">
+                <span class="count dflex">+136</span>
+               </div>
+           </div>
+           <div class="zh-labelbox">
+            <div class="label dflex">
+              <h5>labels</h5>
+              <span>manage label</span>
+                
+            </div>
+            <div class="label-content">
+                <i class="fa fa-bookmark" aria-hidden="true"></i><span>Work in progress</span>
+               
+            </div>
+            <div class="label-content1">
+                <i class="fa fa-bookmark" aria-hidden="true"></i><span>Important task</span>
+               
+            </div>
+            <div class="label-content2">
+                <i class="fa fa-bookmark" aria-hidden="true"></i><span>Project documents</span>
+               
+            </div>
+            <div class="label-content3">
+                <i class="fa fa-bookmark" aria-hidden="true"></i><span>Read later</span>
+               
+            </div>
+            <div class="label-content4">
+                <i class="fa fa-bookmark" aria-hidden="true"></i><span>Travel documents</span>
+               
+            </div>
+           </div>
+       </div>
+    </div>
+     
+  </section>
+  <script src="js/wow.js"></script>
+              <script>
+              new WOW().init();
+              </script>
+</body>
+</html>
